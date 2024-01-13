@@ -26,14 +26,14 @@
 
 # if meaning > 29:
 #     print('true')
-# else: 
+# else:
 #     print("false")
 import math
 
 first = 'Ravali'
 last = 'Vanam'
 print(type(first))
-print(type(first) == tuple) 
+print(type(first) == tuple)
 
 fullname = first + ' ' + last
 print(fullname)
@@ -44,7 +44,7 @@ print(decade)
 
 statement = " I like the seashore " + decade + "s."
 print(statement)
-# multiline 
+# multiline
 multiline = '''
             Hi!    
         How are you?      
@@ -92,6 +92,8 @@ print("muffin".ljust(13, ".") + "5$".rjust(3))
 print("chessecake".ljust(13, ".") + "6$".rjust(3))
 
 # string index values
+# hdd
+
 print(first[1])
 print(first[-1])
 print(first[1:-1])
@@ -104,7 +106,7 @@ print(first.startswith("R"))
 print(first.endswith("L"))
 
 # boolean datatype
-myvalue =True 
+myvalue = True
 x = bool(False)
 print(type(x))
 print(isinstance(myvalue, tuple))
@@ -115,7 +117,7 @@ best_price = int(100)
 print(type(price))
 print(isinstance(best_price, int))
 
-# float 
+# float
 price = 5.9
 best_price = float(5.12)
 print(type(price))
@@ -139,16 +141,11 @@ print(math.ceil(price))
 print(math.floor(price))
 # casting a string number
 zipcode = "421202"
-zip_codevalue= int(421202)
+zip_codevalue = int(421202)
 print(isinstance(zip_codevalue, int))
 
-zipcode= "newyork"
+zipcode = "newyork"
 print(type(zipcode))
 
 
-
 # user types
-
-
-
-

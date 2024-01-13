@@ -1,13 +1,13 @@
 
-# users = ['Ravali', 'Kumarswamy', 'Vanam']
+users = ['Ravali', 'Kumarswamy', 'Vanam']
 
-# data = ['Ravali', 42 , True]
+data = ['Ravali', 42, True]
 
 # emptylist = []
 
 # print('Ravali' in emptylist)
 
-# print(users [0])
+# print(users[0])
 # print(users[-1])
 
 # print(users.index('Vanam'))
@@ -16,9 +16,17 @@
 # print(users[-3:-1])
 # print(users[0:2])
 
-# print(len(data))
-# users.append('Radha')
-# print(users)
+
+A = (0, 1, 2, 3)
+print(A[0])
+print(A[-1])
+print(A[3])
+B = ["a", "b", "c"]
+
+print(B[1:])
+print(len(data))
+users.append('Radha')
+print(users)
 
 # users += ['Sushma']
 # print(users)
@@ -55,68 +63,55 @@
 # print(users)
 
 
-nums = [4, 42, 78, 1, 5]
-nums.reverse()
-print(nums)
-# nums.sort(reverse=True)
+# nums = [4, 42, 78, 1, 5]
+# nums.reverse()
 # print(nums)
-print(sorted(nums, reverse=True))
-print(nums)
+# # nums.sort(reverse=True)
+# # print(nums)
+# print(sorted(nums, reverse=True))
+# print(nums)
 
 
-numscopy = nums.copy()
-mynums = list(nums)
-mycopy = nums[:]
+# numscopy = nums.copy()
+# mynums = list(nums)
+# mycopy = nums[:]
 
-print(numscopy)
-print(mynums)
-print(mycopy.sort())
-print(mycopy)
-print(nums)
-mycopy.sort()
-print(type(nums))
+# print(numscopy)
+# print(mynums)
+# print(mycopy.sort())
+# print(mycopy)
+# print(nums)
+# mycopy.sort()
+# print(type(nums))
 
-mylist = list([1, "Neil", True])
-print(mylist)
+# mylist = list([1, "Neil", True])
+# print(mylist)
 
-# Tuples
+# # Tuples
 
-mytuple = tuple(('Ravali', 25, True))
+# mytuple = tuple(('Ravali', 25, True))
 
-anothertuple = (1,3,5,6)
-print(type(mytuple))
-print(type(anothertuple))
+# anothertuple = (1, 3, 5, 6)
+# print(type(mytuple))
+# print(type(anothertuple))
 
-newlist = list(mytuple)
-newlist.append('Neil')
-newtuple = tuple(newlist)
-print(newtuple)
+# newlist = list(mytuple)
+# newlist.append('Neil')
+# newtuple = tuple(newlist)
+# print(newtuple)
 
-(one, *two, hey) = anothertuple
+# (one, *two, hey) = anothertuple
 
-print(one)
-print(two)
-print(hey)
+# print(one)
+# print(two)
+# print(hey)
 
-print(anothertuple.count(2))
+# print(anothertuple.count(2))
 
+S = {'A', 'B', 'C'}
 
+U = {'A', 'Z', 'C'}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+print(U.union(S))
+A = S.intersection(U)
+print(A)
