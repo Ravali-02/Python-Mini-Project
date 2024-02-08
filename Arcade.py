@@ -28,7 +28,7 @@ def Play_Game(name="Ravali"):
             guessnum_game = guessnum_game(name)
             guessnum_game()
         else:
-            print("\nSee you next time!\n")
+            print("\nFcuk Yuo!\n")
             sys.exit(f"Bye {name}! 👋")
 
 
